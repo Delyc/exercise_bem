@@ -1,0 +1,94 @@
+@media (min-width: 320px) and (max-width: 480px) {
+   .hero-section{
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    height: 100vh !important;
+   }
+
+   .hero-section__intro{
+    width: 65% !important;
+    height: 70vh !important;
+   }
+   
+    .learn-portfolio{
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem !important;
+    
+        width: 100%;
+    }
+
+    .learn-portfolio__post{
+        width: 90% !important;
+        
+    }
+    .learn-portfolio__btn{
+        width: 30vw !important;
+    }
+
+    .heading{
+        font-size: 20px !important;
+        width: 90%;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .behind-it{
+      
+       flex-direction: row;
+       justify-content: center;
+
+       align-items: center;
+        padding: 50px !important;
+    }
+
+    .behind-it__post{
+        width: 90% !important;
+        flex-direction: column ;
+    }
+
+    .behind-it__banner img{
+        width: 90%;
+    }
+
+    .behind-it__btn{
+        width: 60vw !important;
+    }
+
+    .small-cards{
+        flex-wrap: wrap;
+        gap: 0.2rem;
+    }
+    .small-cards__post{
+        width: 43% !important;
+    }
+
+
+
+    .footer__description{
+        flex-direction: column;
+        width: 100%;
+        gap: 2rem;
+    }
+
+    .footer__company-info{
+        width: 100% !important;
+        
+    }
+
+    .footer__socials{
+        width: 90% !important;
+        flex-wrap: wrap;
+    }
+
+    .footer-section__handle{
+        width: 20vw !important;
+    }
+
+    .footer__more-info{
+        flex-wrap: wrap;
+       
+        gap: 2rem;
+    }
+}
